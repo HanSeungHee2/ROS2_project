@@ -1,0 +1,17 @@
+# Goal
+int32 index
+int32 current_idx
+float64 home_x
+float64 home_y
+float64 center_x
+float64 center_y
+float64 target_x
+float64 target_y
+float64 target_h
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string status

@@ -1,0 +1,10 @@
+# Goal (액션을 시작할 때 전달할 데이터)
+string folder_name     # 이미지들이 저장될 파일 이름(접두사)
+int32 start_index      # 시작할 인덱스 번호
+int32 count            # 저장할 총 개수
+---
+# Result (액션 완료 후 결과)
+bool success
+---
+# Feedback (액션 수행 중 전달할 정보)
+int32 current_count
